@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;  
+}
+.container{
+    height: 100svh;
+    background-color: white;
+    padding: 0rem 2rem;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+.logo img{
+    width: 9rem;
+    height:2rem;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+.menu button{
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #155EEF;
+    color: #155EEF;
+    background: #fff;
+    font-size: 16px;
+    font-weight: 600;
+}
+main{
+   padding: 0.5rem 1rem;
+}
+.top{
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.top .text{
+    width: 669px;
+    height: 108px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+.text h1{
+    width: 671px;
+    height: 67px;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    color: #155EEF;
+}
+.top img{
+    width: 450px;
+    height: 450px;
+}
+.bottom{
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    margin-bottom: 2rem;   
+}
+.bottom img{
+    width: 535px;
+    height: 384px;
+}
+.bottom .text{
+    width: 604px;
+    height: 216px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    color: #2E3A53;
+}
+.bottom .text h3{
+    width: 671px;
+    height: 67px;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    color: #041330;
+}
+.footer{
+    border: 2px solid #155EEF;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1.5rem;
+}
+.socials{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+#facebook{
+    height: 1.5rem;
+}
